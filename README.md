@@ -8,7 +8,7 @@ We suggest using conda to setup environment. You need to first replace ``prefix`
 conda env create -f environment.yml
 ```
 
-## Instuction
+## Instruction
 The ``main`` branch contains **toxicity** unlearning task. We put the other two tasks, sentiment steering and repetition reduction in ``sentiment`` branch and ``repetition`` branch separately. 
 
 We use the [PerspectiveAPI](https://github.com/conversationai/perspectiveapi) to score toxicity in reward computing, which requires API key for access.
